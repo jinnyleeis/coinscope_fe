@@ -5,8 +5,10 @@ import Footer from '@/components/Footer';
 const LandingPage = () => {
   return (
     <div className="bg-[#111111] min-h-screen">
-      {/* Global Navigation Bar */}
-      <GNB />
+<div className="w-full px-4">
+{/* Global Navigation Bar */}
+        <GNB />
+      </div>
 
       {/* Main Section */}
       <div className="container mx-auto my-52 px-4 h-full flex flex-col gap-y-44">

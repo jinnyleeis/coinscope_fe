@@ -2,7 +2,7 @@ import React from 'react';
 
 const GNB = () => {
   return (
-    <header className="w-full h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
+    <header className="w-full max-w-screen-2xl  mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
       {/* Logo */}
       <div className="text-title-1 font-bold cursor-pointer">
         CoinScope
@@ -10,28 +10,49 @@ const GNB = () => {
 
       {/* Navigation Links */}
       <nav className="flex space-x-8">
-        <a href="#events" className="text-body-2-b hover:text-primary hover:underline">
-          Events
-        </a>
-        <a href="#calendar" className="text-body-2-b hover:text-primary hover:underline">
-          Calendar
-        </a>
-        <a href="#feed" className="text-body-2-b hover:text-primary hover:underline">
-          Feed
-        </a>
-        <a href="#alert" className="text-body-2-b hover:text-primary hover:underline">
-          Alert
-        </a>
+        <div className="px-5 py-1.5 rounded-[20px] flex items-center">
+          <a href="#events" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+            Events
+          </a>
+        </div>
+        <div className="px-5 py-1.5 rounded-[20px] flex items-center">
+          <a href="#calendar" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+            Calendar
+          </a>
+        </div>
+        <div className="px-5 py-1.5 rounded-[20px] flex items-center">
+          <a href="#feed" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+            Feed
+          </a>
+        </div>
+        <div className="px-5 py-1.5 rounded-[20px] flex items-center">
+          <a href="#alert" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+            Alert
+          </a>
+        </div>
       </nav>
 
       {/* Action Buttons */}
-      <div className="flex space-x-4">
-        <button className="bg-blue500 text-white py-2 px-4 rounded-lg hover:bg-blue600 transition duration-300 ease-in-out">
-          Sign In
-        </button>
-        <button className="text-body-2-m hover:text-gray300 transition duration-300 ease-in-out">
-          Sign Up
-        </button>
+      <div className="flex space-x-4 items-center">
+        {/* Search Button */}
+        <div className="h-[42px] px-5 py-2 bg-[#242424] rounded-[20px] flex items-center">
+          <div className="text-[#a6a8b0] text-sm font-medium font-['SUIT'] leading-relaxed">Search</div>
+        </div>
+
+        {/* Sign Up Button */}
+        <div className="px-5 py-1.5 bg-[#242424] rounded-[20px] flex items-center">
+          <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed">Sign Up</div>
+        </div>
+
+        {/* Sign In Button */}
+        <div className="px-5 py-1.5 bg-[#2440f2] rounded-[20px] flex items-center">
+          <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed">Sign In</div>
+        </div>
+
+        {/* Language Selection */}
+        <div className="pl-2 py-[7.30px] rounded-[65.11px] flex items-center">
+          <div className="text-[#a6a8b0] text-sm font-medium font-['SUIT'] leading-relaxed">EN</div>
+        </div>
       </div>
     </header>
   );
