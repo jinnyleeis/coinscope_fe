@@ -9,7 +9,7 @@ const LandingPage = () => {
       <GNB />
 
       {/* Main Section */}
-      <div className="container mx-auto my-52 px-4 h-full flex flex-col gap-16">
+      <div className="container mx-auto my-52 px-4 h-full flex flex-col gap-y-44">
         
         {/* 첫 번째 행: 텍스트 섹션 + 샘플 카드 섹션 */}
         <div className="w-full flex flex-col md:flex-row justify-between items-start gap-8 max-w-7xl">
@@ -34,7 +34,7 @@ const LandingPage = () => {
           </div>
 
           {/* 샘플 카드 섹션 */}
-          <div className="w-full flex justify-center items-center">
+          <div className="w-full  flex justify-center items-center">
             <div className="relative w-full max-w-md h-[260px] bg-white rounded-lg shadow-lg flex justify-center items-center">
               <div className="absolute inset-0 bg-[#111111] rounded-lg opacity-80 blur-lg" />
               <div className="relative z-10 text-white">Sample Card Content</div>
