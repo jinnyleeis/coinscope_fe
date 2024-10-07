@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const GNB = () => {
   return (
-    <header className="w-full max-w-screen-2xl  lg:px-[120px] mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
+    <header className="w-full max-w-screen-2xl  mt-4  lg:px-[120px] mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
      {/* 로고 영역 */}
-  <div className="flex items-center">
+  <div className="flex items-center mx-3">
     {/* PNG 아이콘 추가 (next/image) */}
     <Image 
       src="/images/logo_icon.png" 
@@ -21,8 +21,8 @@ const GNB = () => {
     </div>
   </div>
       {/* Navigation Links */}
-      <nav className="flex space-x-8 ">
-        <div className="px-5 py-1.5 rounded-[20px] flex items-center">
+      <nav className="flex space-x-8  mt-6 ">
+        <div className="px-5 py-1.5 rounded-[20px]  flex items-center">
           <a href="#events" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:font-bold ">
             Events
           </a>
