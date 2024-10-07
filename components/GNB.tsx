@@ -11,17 +11,17 @@ const GNB = () => {
       {/* Navigation Links */}
       <nav className="flex space-x-8 ">
         <div className="px-5 py-1.5 rounded-[20px] flex items-center">
-          <a href="#events" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+          <a href="#events" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:font-bold ">
             Events
           </a>
         </div>
         <div className="px-5 py-1.5 rounded-[20px] flex items-center">
-          <a href="#calendar" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+          <a href="#calendar" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:font-bold ">
             Calendar
           </a>
         </div>
         <div className="px-5 py-1.5 rounded-[20px] flex items-center">
-          <a href="#feed" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
+          <a href="#feed" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:font-bold ">
             Feed
           </a>
         </div>
