@@ -39,15 +39,16 @@ const GNB = () => {
           <div className="text-[#a6a8b0] text-sm font-medium font-['SUIT'] leading-relaxed">Search</div>
         </div>
 
-        {/* Sign Up Button */}
-        <div className="px-5 py-1.5 bg-[#242424] rounded-[20px] flex items-center">
-          <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed">Sign Up</div>
-        </div>
+     {/* Sign Up Button */}
+<div className="sm:w-[80px] px-5 py-1.5 bg-[#242424] rounded-[20px] flex items-center">
+  <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed whitespace-nowrap">Sign Up</div>
+</div>
 
-        {/* Sign In Button */}
-        <div className="px-5 py-1.5 bg-[#2440f2] rounded-[20px] flex items-center">
-          <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed">Sign In</div>
-        </div>
+{/* Sign In Button */}
+<div className="sm:w-[80px] px-5 py-1.5 bg-[#2440f2] rounded-[20px] flex items-center">
+  <div className="text-white text-sm font-medium font-['SUIT'] leading-relaxed whitespace-nowrap">Sign In</div>
+</div>
+
 
         {/* Language Selection */}
         <div className="pl-2 py-[7.30px] rounded-[65.11px] flex items-center">
