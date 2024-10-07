@@ -55,7 +55,7 @@ const Belowsection = () => {
     </div>
   </div>
   <div className= "w-[660px] h-[386px]  relative">
-    <div className="w-[914px] h-[485.44px] left-[5px] top-[2.99px] absolute bg-white/30 rounded-[36px] shadow border-2 border-white" />
+    <div className="w-[404px] h-[485.44px] left-[5px] top-[2.99px] absolute bg-white/30 rounded-[36px] shadow border-2 border-white" />
   </div>
 </div>
 
