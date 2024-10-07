@@ -1,34 +1,46 @@
 import React from 'react';
 
 const Footer = () => {
-	return (
-		<footer className='w-full bg-black text-white py-6 flex justify-center items-center'>
-			<div className='text-body-3 text-gray400'>
-				© 2024 CoinScope GG. All rights reserved.
-			</div>
+  return (
+    <footer className='w-full bg-black text-white py-6 flex flex-col items-center space-y-4'>
+      {/* 아이콘 섹션 */}
+      <div className='flex space-x-6'>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 3C9.72 3 3 9.72 3 18C3 26.28 9.72 33 18 33C26.28 33 33 26.28 33 18C33 9.72 26.28 3 18 3ZM24.96 13.2C24.735 15.57 23.76 21.33 23.265 23.985C23.055 25.11 22.635 25.485 22.245 25.53C21.375 25.605 20.715 24.96 19.875 24.405C18.555 23.535 17.805 22.995 16.53 22.155C15.045 21.18 16.005 20.64 16.86 19.77C17.085 19.545 20.925 16.05 21 15.735C21.0104 15.6873 21.009 15.6378 20.996 15.5907C20.9829 15.5437 20.9585 15.5005 20.925 15.465C20.835 15.39 20.715 15.42 20.61 15.435C20.475 15.465 18.375 16.86 14.28 19.62C13.68 20.025 13.14 20.235 12.66 20.22C12.12 20.205 11.1 19.92 10.335 19.665C9.39 19.365 8.655 19.2 8.715 18.675C8.745 18.405 9.12 18.135 9.825 17.85C14.205 15.945 17.115 14.685 18.57 14.085C22.74 12.345 23.595 12.045 24.165 12.045C24.285 12.045 24.57 12.075 24.75 12.225C24.9 12.345 24.945 12.51 24.96 12.63C24.945 12.72 24.975 12.99 24.96 13.2Z"
+            fill="#616574"
+          />
+        </svg>
 
-			<div className='flex space-x-6 ml-8'>
-				<a
-					href='/privacy'
-					className='text-body-2-m hover:text-primary hover:underline'
-				>
-					Privacy Policy
-				</a>
-				<a
-					href='/terms'
-					className='text-body-2-m hover:text-primary hover:underline'
-				>
-					Terms of Service
-				</a>
-				<a
-					href='/contact'
-					className='text-body-2-m hover:text-primary hover:underline'
-				>
-					Contact Us
-				</a>
-			</div>
-		</footer>
-	);
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M33.69 9C32.535 9.525 31.29 9.87 30 10.035C31.32 9.24 32.34 7.98 32.82 6.465C31.575 7.215 30.195 7.74 28.74 8.04C27.555 6.75 25.89 6 24 6C20.475 6 17.595 8.88 17.595 12.435C17.595 12.945 17.655 13.44 17.76 13.905C12.42 13.635 7.665 11.07 4.5 7.185C3.945 8.13 3.63 9.24 3.63 10.41C3.63 12.645 4.755 14.625 6.495 15.75C5.43 15.75 4.44 15.45 3.57 15V15.045C3.57 18.165 5.79 20.775 8.73 21.36C7.78626 21.6194 6.79506 21.6554 5.835 21.465C6.24241 22.7437 7.04031 23.8626 8.11652 24.6644C9.19274 25.4662 10.4932 25.9105 11.835 25.935C9.5605 27.7358 6.74101 28.7091 3.84 28.695C3.33 28.695 2.82 28.665 2.31 28.605C5.16 30.435 8.55 31.5 12.18 31.5C24 31.5 30.495 21.69 30.495 13.185C30.495 12.9 30.495 12.63 30.48 12.345C31.74 11.445 32.82 10.305 33.69 9Z"
+            fill="#616574"
+          />
+        </svg>
+  
+      </div>
+
+      {/* 텍스트 섹션 */}
+      <div className='text-center text-[#616574] text-[14px] font-["Pretendard Variable"] font-medium leading-[20px] tracking-[-0.42px]'>
+        © 2024 COINSCOPE GG. All rights reserved.
+      </div>
+
+     
+    </footer>
+  );
 };
 
 export default Footer;
