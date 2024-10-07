@@ -6,7 +6,7 @@ import BelowSection from '@/components/BelowSection';
 const LandingPage = () => {
   return (
     <div className="bg-[#111111] min-h-screen">
-<div className="w-full px-4">
+<div className=" w-full px-4">
 {/* Global Navigation Bar */}
         <GNB />
       </div>

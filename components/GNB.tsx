@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const GNB = () => {
   return (
-    <header className="w-full max-w-screen-2xl  mt-4  lg:px-[120px] mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
+    <header className="w-full max-w-screen-2xl   lg:px-[120px] mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
      {/* 로고 영역 */}
   <div className="flex items-center mx-3">
     {/* PNG 아이콘 추가 (next/image) */}
