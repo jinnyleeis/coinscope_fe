@@ -2,14 +2,14 @@ import React from 'react';
 
 const GNB = () => {
   return (
-    <header className="w-full max-w-screen-2xl  mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
+    <header className="w-full max-w-screen-2xl  lg:px-[120px] mx-auto h-[70px] flex justify-between items-center px-8 bg-black text-white shadow-md fixed top-0 z-10">
       {/* Logo */}
       <div className="text-title-1 font-bold cursor-pointer">
         CoinScope
       </div>
 
       {/* Navigation Links */}
-      <nav className="flex space-x-8">
+      <nav className="flex space-x-8 ">
         <div className="px-5 py-1.5 rounded-[20px] flex items-center">
           <a href="#events" className="text-[#e1e2e4] text-sm font-medium font-['SUIT'] leading-relaxed hover:text-primary">
             Events
@@ -35,7 +35,7 @@ const GNB = () => {
       {/* Action Buttons */}
       <div className="flex space-x-4 items-center">
         {/* Search Button */}
-        <div className="h-[42px] px-5 py-2 bg-[#242424] rounded-[20px] flex items-center">
+        <div className=" w-[220px] h-[42px] px-5 py-2 bg-[#242424] rounded-[20px] flex items-center">
           <div className="text-[#a6a8b0] text-sm font-medium font-['SUIT'] leading-relaxed">Search</div>
         </div>
 
