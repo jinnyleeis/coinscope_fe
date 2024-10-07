@@ -1,6 +1,7 @@
 import React from 'react';
 import GNB from '@/components/GNB';
 import Footer from '@/components/Footer';
+import BelowSection from '@/components/BelowSection';
 
 const LandingPage = () => {
   return (
@@ -89,6 +90,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+		<BelowSection/>
       </div>
 
       {/* Footer */}
